@@ -1,0 +1,2 @@
+# ETL-Mini-Pipeline-Python-Extract-Transform-Load
+This ETL process loads the raw CSV dataset, cleans missing values and duplicates, standardizes column names and types, and creates derived columns such as total_movement and a high_movement flag. The data is then split into suppliers, items, and monthly_movements tables, exported as CSVs, and loaded into a SQLite database. Row counts are validated.
